@@ -1,0 +1,17 @@
+{
+    "name": "ousamabenyounes/ems",
+    "description": "A simple PHP script allowing a csv file update ",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.3.3",
+        "faisalman/simple-excel-php": "^0.3.15"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Ems\\" : "lib/"
+        }
+    }
+}
+
+
+
