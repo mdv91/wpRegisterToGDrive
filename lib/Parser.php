@@ -76,7 +76,7 @@ class Parser
 		{
 			$this->nextLine($excel);
 		}
-		$excel->writer->saveFile('titi.csv', 'tmp/ouput.csv');
+		$excel->writer->saveFile('titi.csv', 'uploads/ouput.csv');
 	}
 
 
