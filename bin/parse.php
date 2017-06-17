@@ -5,6 +5,6 @@ namespace EMS;
 require('vendor/autoload.php');
 
 $emsParser = new \Ems\Parser();
-$emsParser->parseFIle();
+$emsParser->parseFIle($argv[1]);
 
 

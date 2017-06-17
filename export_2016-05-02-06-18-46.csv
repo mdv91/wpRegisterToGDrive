@@ -1,2 +1,0 @@
-id;dateRDV;heureRDV;etudiant1;etudiant2;etudiant3;etudiant4;etudiant5;civilite;nom;prenom;adresse;codePostal;ville;email;telephone;telephone2;origine;dateCreation;dateModification;optin;source;ipAddress
-2;05/04/2016;10:00;john doe - 10/09/1988 (Homme, ems);Doe John - 10/09/2001 (Homme);John Doe Jr. - 10/09/2001 (Homme);;;M.;ben younes;ousama;2A rue A augustin parmentier;91270;ma ville;spam@yahoo.fr;101010101;;;07/04/2016;07/04/2016;1;www.ems-vigneux.fr;83.157.16.23

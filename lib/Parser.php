@@ -68,9 +68,9 @@ class Parser
 	 *
 	 * @return  string  Content of document
 	 */
-	public function parseFIle(){
+	public function parseFIle($filename){
 		$excel = $this->getExcel();
-		$excel->parser->loadFile('export_2016-05-02-06-18-46.csv');
+		$excel->parser->loadFile($filename);
 		$this->createHeader($excel->writer);
 		while ($excel->parser->isRowExists($this->getCurrentLine()))
 		{
